@@ -2,7 +2,7 @@ class Ball {
   constructor(x, y, w, h) {
     let options = {
       restitution: 0.8
-    };
+    }
 
     this.body = Bodies.rectangle(x, y, w, h, options);
     this.w = w;
